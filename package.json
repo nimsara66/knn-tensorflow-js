@@ -1,0 +1,26 @@
+{
+  "name": "KNN",
+  "version": "1.0.0",
+  "description": "1. features --> longitude and latitude\r     2. labels --> house price\r     3. k --> number of neighboures considered\r     4. pp --> predictionPoint",
+  "main": "load-csv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimsara66/knn-tensorflow-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nimsara66/knn-tensorflow-js/issues"
+  },
+  "homepage": "https://github.com/nimsara66/knn-tensorflow-js#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.7.0",
+    "@tensorflow/tfjs-node": "^3.7.0",
+    "lodash": "^4.17.21",
+    "shuffle-seed": "^1.1.6"
+  }
+}
